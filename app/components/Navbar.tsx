@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar bg-black/80 backdrop-blur-md text-white fixed w-full z-50 shadow-lg">
-      <div className="container max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
+      <div className="container max-w-7xl mx-auto px-4 flex items-center justify-between h-10">
         {/* Logo */}
         <div className="text-xl font-bold tracking-wide">
           MyCompany

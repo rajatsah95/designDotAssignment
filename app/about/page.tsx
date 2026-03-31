@@ -2,11 +2,11 @@ export default function About() {
   return (
     // Main container
     <>
-      <div className="box relative w-full max-w-[1920px] h-[500px] md:h-[650px] overflow-hidden flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-[url('/map.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="box3 relative w-full max-w-[1920px] h-[500px] md:h-[650px] overflow-hidden flex flex-col md:flex-row items-center justify-between px-6 md:px-16 bg-[url('/map.jpg')] bg-cover bg-center bg-no-repeat">
         
         {/* Left Content */}
-        <div className="w-full md:w-1/2 text-black max-w-xl text-left">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+        <div className="w-full md:w-1/2 text-black max-w-xl text-left transform translate-y-[60px]">
+          <h1 className="text-4xl md:text-4xl font-bold mb-6">
             About Our Company
           </h1>
           <p className="text-lg md:text-xl text-black-300 mb-8">
@@ -19,7 +19,7 @@ export default function About() {
         </div>
 
         {/* Right Image */}
-        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center items-start transform translate-y-[30px]">
+        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center items-start transform translate-y-[50px]">
           <img
             src="/building.png"
             alt="Building"
