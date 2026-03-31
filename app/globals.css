@@ -10,6 +10,20 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.box
+{
+  margin: auto;
+  text-align: center;
+background-color: #1e40af;
+}
+
+.box2
+{
+  margin: auto;
+  text-align: center;
+background-color:red;
+}
+
 /* NAVBAR */
 .navbar {
   background: #111;
@@ -59,7 +73,7 @@ body {
 }
 
 .page {
-  /* max-width: 800px; */
+  max-width: 800px;
   margin: auto;
   text-align: center;
 }
